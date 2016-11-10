@@ -13,3 +13,16 @@ body{
 #butt{
     padding: 10px;
 }
+
+.navbar{
+    background-color:#b2b2b2;
+}
+
+li a{
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: black;
+}
