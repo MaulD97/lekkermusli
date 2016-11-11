@@ -6,9 +6,12 @@
     margin-left: 0em;   
 }
 
+.pinfooter{
+    font-size: 7px;   
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    min-height: 60em;
 }
 
 .jumbotron{
