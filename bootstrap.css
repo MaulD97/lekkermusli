@@ -17,6 +17,10 @@
     color: black;   
 }
 
+.pagination>li>a:hover{
+    color: black;   
+}
+
 .pagination>.active>a{
     background-color: #c7b4ac;
     border-color: #7a7076;
