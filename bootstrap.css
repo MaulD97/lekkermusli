@@ -1,3 +1,5 @@
+
+
 #neu{
     margin-top: 7em;
 }
@@ -11,7 +13,7 @@
     float: right;
 }
 
-.active{
+.pagination.active{
     background-color: #c7b4ac;
 }
 
