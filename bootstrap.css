@@ -13,7 +13,7 @@
     float: right;
 }
 
-.pagination.active{
+.pagination>.active{
     background-color: #c7b4ac;
 }
 
