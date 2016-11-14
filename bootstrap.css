@@ -11,6 +11,10 @@
     float: right;
 }
 
+.active{
+    background-color: #c7b4ac;
+}
+
 .footer{
     background-color: #f5967c;
     height: 6em;
@@ -35,7 +39,7 @@ body{
 }
 
 .jumbotron{
-    background-color: #f5967c;
+    background-color: #c7b4ac;
 }
 
 #butt{
