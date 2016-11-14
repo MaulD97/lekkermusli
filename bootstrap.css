@@ -16,11 +16,13 @@
 .pagination>.active>a{
     background-color: #c7b4ac;
     border-color: #7a7076;
+    color: black;
 }
 
 .pagination>.active>a:hover{
     background-color: #c7b4ac;
     border-color: #7a7076;
+    color: black;
 }
 
 .footer{
