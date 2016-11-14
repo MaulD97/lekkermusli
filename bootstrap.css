@@ -11,7 +11,10 @@
 .pagination{
     margin-top: 5em;
     float: right;
-    color: black;
+}
+
+.pagination>li>a{
+    color: black;   
 }
 
 .pagination>.active>a{
