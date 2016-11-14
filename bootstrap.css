@@ -6,6 +6,10 @@
     margin-left: 0em;   
 }
 
+.pagination{
+    margin: auto;
+}
+
 .footer{
     background-color: #f5967c;
     height: 6em;
