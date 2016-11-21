@@ -12,7 +12,7 @@ $("<link rel=\'shortcut icon\' href=\'meida/müslibot2.ico\'>").prependTo("head"
     
     for (i = 0; i < arr1.length; ++i) {
       if(number < 2){
-        $("<div class=\'row\'><div class=\'col-md-6\'><div class=\'page-header'><h3>"+arr1[i]+"</h3></div></div></div><div class=\'row\'><div class=\'col-md-6\'><div class=\'page-header'><h3>"+arr1[i]+"</h3></div></div></div>").appendTo("#story1");
+        $("<div class=\'row\'><div class=\'col-md-6\'><div class=\'page-header'><h3>"+arr1[i]+"</h3></div></div></div>").prpendTo("#story1");
       }
     }
 });
