@@ -11,9 +11,9 @@ $("<link rel=\'shortcut icon\' href=\'meida/müslibot2.ico\'>").prependTo("head"
  var arr2=["In der Vorsaison zur Season 2017 kann man sein Ranking für die Flex-Queue bereits jetzt beeinflussen. Denn es gab bisher keine Flex-Queue deshalb bildet das Ranking in der Vorsaison die Grundlage für den erneuten Einstieg. Doch es gab schon erste Anzeichen von Angst bei unseren Müsli Spielern. Denn NoAX12 höchstpersönlich wurde Bronze eingestuft. Was die einen verstummen lässt, belustigt andere. Hobbycamper666 und 13axtron finden es durchaus amüsant. Der letztere Beschwörer ist übrigends ebenfalls in Bronze gelandet und auch sonst ein typischer Scrubber aber dennoch Gastspieler bei Müsli auf Grund seiner persönlichen Beziehungen zu dem Diamond Spieler im Team. Doch NoAX12 ließ sich das nicht gefallen und forderte Hobbycamper666, 13axtron und plueschkanickel zum Duell heraus. An seiner Seite kämpften MaulD und Exmatrikulat0r, welche somit die Gründer der Weltbekannten Müslis repräsentierten. Der Kampf war schnell vorbei und es war schon von Angfang an klar, dass das Ursprungsteam erfolgreich den Gewundenen Wald verlassen kann. Hobbycamper war sichtlich getiltet und laut ihm war es nicht seine Schuld. \„Ich hatte einen Bronze Spieler im Jungle.\", war nur eine seiner jämmerlichen Verlustserklärungen. Wenn es um Eleganz und brachial guten Spielstil geht kann halt niemand diesem Trio das Wasser reichen."];
     
     for (i = 0; i < arr1.length; ++i) {
-      if(number <= 8 && i%2 != 0){
+      if(number <= 8 && i%2 == 0){
         $("<div class=\'row\'><div class=\'col-md-6\'><div class=\'page-header'><h3>"+arr1[i]+"</h3></div></div><div class=\'col-md-6\'><div class=\'page-header'><h3>"+arr1[i+1]+"</h3></div></div></div>").appendTo("#story"+i);
-      }else if(number <= 8 && i%2 == 0){
+      }else if(number <= 8 && i%2 != 0){
         i--;
       }
       
