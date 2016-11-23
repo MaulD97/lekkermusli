@@ -28,4 +28,7 @@ $("<link rel=\'shortcut icon\' href=\'meida/müslibot2.ico\'>").prependTo("head"
     for (i = 0; i < arr1.length; ++i) {
         $("<div class=\'page-header'><h3>"+arr1[i]+"</h3></div><p>"+arr2[i]+"</p>").prependTo("#story"+i);
     }
+  
+  //Tabelleneinstellungen
+  $('#edit').text('MaulD2');
 });
