@@ -30,5 +30,8 @@ $("<link rel=\'shortcut icon\' href=\'meida/müslibot2.ico\'>").prependTo("head"
     }
   
   //Tabelleneinstellungen
-  $('#edit').text('MaulD2');
+  $mama = $('#edit').text();
+  $('th').click(function(){
+     $('td').text($mama);
+  });
 });
