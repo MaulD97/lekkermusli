@@ -12,7 +12,7 @@ $("<link rel=\'shortcut icon\' href=\'meida/müslibot2.ico\'>").prependTo("head"
     
     for (i = 0; i < arr1.length; ++i) {
       if(number <= 8){
-        $("<div class=\'page-header'><h3>"+arr1[i]+"</h3><p>"+arr2[i]+"</p></div>").appendTo("#story"+i);
+        $("<div class=\'page-header'><h3>"+arr1[i]+"</h3></div><p>"+arr2[i]+"</p>").appendTo("#story"+i);
       } 
       number++;
     }
