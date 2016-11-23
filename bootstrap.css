@@ -2,6 +2,10 @@
  background-color: #7a7076; 
 }
 
+.table-bordered{
+ border:1px solid black;
+}
+
 .dropdown-menu>li>a{
  color: ghostwhite;   
 }
