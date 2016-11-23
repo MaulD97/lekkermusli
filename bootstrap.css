@@ -6,6 +6,10 @@
  color: ghostwhite;   
 }
 
+a.dropdown-toggle:focus{
+ color: black;
+}
+
 .dropdown-menu>li>a:hover{
  color: black;   
 }
