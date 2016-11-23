@@ -10,10 +10,6 @@ a.dropdown-toggle:focus{
  color: black;
 }
 
-.table{
- border: 1px solid black;
-}
-
 th{
  width: 10em;
  border: 1px solid black;
