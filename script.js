@@ -31,7 +31,8 @@ $("<link rel=\'shortcut icon\' href=\'meida/müslibot2.ico\'>").prependTo("head"
   
   //Tabelleneinstellungen
   $mama = $('#edit').text();
-  $('th').click(function(){
+  $('th').click(function(e){
      $('td').text($mama);
+      e.preventDefault();
   });
 });
