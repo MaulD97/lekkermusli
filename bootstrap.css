@@ -10,6 +10,14 @@ a.dropdown-toggle:focus{
  color: black;
 }
 
+th{
+ width: 10em;
+ border: 1px solid black;
+ background-color: #c7b4ac;
+ text-align: center;
+ color: ghostwhite;
+}
+
 .dropdown-menu>li>a:hover{
  color: black;   
 }
