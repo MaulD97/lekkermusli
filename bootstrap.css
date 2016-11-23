@@ -2,7 +2,7 @@
  background-color: #7a7076; 
 }
 
-.dropdown-menu>a{
+.dropdown-menu>li>a{
  color: ghostwhite;   
 }
 
