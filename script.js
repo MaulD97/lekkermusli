@@ -20,11 +20,10 @@ $("<link rel=\'shortcut icon\' href=\'meida/müslibot2.ico\'>").prependTo("head"
   $text6 = "Am 20.10.2016 gibt der Leiter des Teams Müsli bei einer Pressekonferenz bekannt, dass er auf der Suche nach einem Ersatz ADC sei. Laut der Aussage MaulDs ist ADC Exmatrikulat0r zu selten in der Lage zu spielen. Das bringt das Team auseinander und den Leiter auf die Palme. Aber jetzt soll Schluss damit sein denn ein neuer Spieler soll her. Eigentlich dachte man an den LCS Carry Forg1ven. Doch die Mitglieder einigten sich darauf er sei nicht gut genug für die hoch angelegte Teamleistung. \„Was will ich mit so nem LCS Metaslave Spasti auf der Botlane?\", sagt Müsli Supporter plueschkanickel sichtlich genervt. Zur Not spiele auch Toplaner NoAX12 als ADC solange man einen Ersatz sucht. \„Die ganzen Angebote aus Korea lassen mich kalt. Die sind ja nicht einmal ne Millionen wert (damit, wenn überhaupt, halb soviel wie ein Müsli Spieler). Jeder weiß doch, dass deutsche Spieler im Goldbereich gefragter sind.\", meint MaulD während der Konferenz. Es ist wohl noch zu früh um sagen zu können, dass das Problem gelöst wurde.";
   $text7 = "Alistar hat vor kurzer Zeit zusammen mit den Assassins ein paar Änderungen in seinem Kit bekommen. Er ist zur  Zeit ein sehr beliebter Supporter, denn er verfügt nun über mehr Crowd Control und seine Heilfähigkeit bezieht sich nun nur auf einen Champion, aber dieser Heal ist um einiges stärker. Diese schöne Kombination hat es auch MaulD angetan der den neuen Alistar liebend gern spielt. Bis jetzt hat er mit diesem eine 100%ige Gewinnrate. Andere Spieler wie z.B. Faker haben sich deshalb schon beim Captian gemeldet und ihm Glückwünsche ausgesprochen. Angebote von mehreren LCS Teams sind schon rausgegeangen. \„Lol als ob ich im Leben so gescheitert bin ,dass  ich der LCS beitrete. Die Lappen tilten mich doch in den Boden.\" Zusammen mit Exmatrikulat0rs Jhin sei man besonders effizient laut MaulD. Der ADC meint: \„Ja also das ist schon super mit dem Captain. Ich kann ganz sicher farmen und der schreit mich wieder Full Life, wich is nice. Die W-Q Kombo sitzt zwar noch nicht so aber das ist auch ultra schwer. Wenn er aber trifft melken wir die Gegner allerdings hart auch wenn Ali ein Stier ist.\" So macht das Ranken doch Spaß.";
   //Start der Einbindung der Stories durch JQuery für automatischen Seitenwechsel
- var arr1=[$header1,$header2,$header3,$header4,$header5,$header6,$header7];
- var arr2=[$text1,$text2,$text3,$text4,$text5,$text6,$text7];
-    
+ var arr1=[$header7,$header6,$header5,$header4,$header3,$header2,$header1];
+ var arr2=[$text7,$text6,$text5,$text4,$text3,$text2,$text1];
+  
     for (i = 0; i < arr1.length; ++i) {
-      
         $("<div class=\'page-header'><h3>"+arr1[i]+"</h3></div><p>"+arr2[i]+"</p>").prependTo("#story"+i);
     }
 });
