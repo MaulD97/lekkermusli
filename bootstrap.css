@@ -6,6 +6,10 @@
  color: ghostwhite;   
 }
 
+.dropdown-menu>li>a:hover{
+ color: black;   
+}
+
 #neu{
     margin-top: 7em;
 }
