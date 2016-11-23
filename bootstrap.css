@@ -1,4 +1,10 @@
+.dropdown-menu{
+ background-color: #7a7076; 
+}
 
+.dropdown-menu>a{
+ color: ghostwhite;   
+}
 
 #neu{
     margin-top: 7em;
